@@ -1,0 +1,60 @@
+# Kasumi Tones
+
+Tones cropped from some songs released in BanG Dream franchise to be
+used on Kasumi.
+
+## How to make use of this repo?
+
+To make use of this repo, you have to either modify your target ROM
+source to include the config file of this repository after cloning,
+or clone this repository with the rest of the source for better
+integrity as this repository's config must be included in vendor/extra.
+
+You have two functions, one provided by AOSP and one provided in
+Makefile language, to make this repository a dependency in your ROM
+source (Make sure to add this repository in your ROM's manifests and
+credit us later on :D);
+
+### Using AOSP `inherit-product` functions
+
+Strict dependency (`lunch` fails if the repo isn't cloned);
+```makefile
+$(call inherit-product vendor/kasumitones/config.mk)
+```
+
+Relaxed dependency (The build process runs normally even if the
+repository doesn't exist);
+```makefile
+$(call inherit-product-if-exists vendor/kasumitones/config.mk)
+```
+
+### Using Makefile language's `include` macro
+
+Strict dependency (`lunch` fails if the repo isn't cloned);
+```makefile
+include vendor/kasumitones/config.mk
+```
+
+Relaxed dependency (The build process runs normally even if the
+repository doesn't exist);
+```makefile
+-include vendor/kasumitones/config.mk
+```
+
+# Credits
+
+- All of the bands formed in BanG Dream franchise for the original songs and their instrumental versions
+- BanG Dream community for providing high quality versions of the tracks mentioned above
+- imouto1308 for editing and adapting
+- windowz414/stelbl for the base code and research
+
+-----
+
+```
+#
+# Copyright (C) 2024 Project Kasumi. All Rights Reserved.
+# Copyright (C) 2024 Kasumi. All Rights Reserved.
+#
+# SPDX-License-Identifier: GPL-2.0-only
+#
+```
