@@ -35,6 +35,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ringtones/Shuwarin_Dreaming.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Shuwarin_Dreaming.ogg
 
+# "Bushido!" - windowz414 In-Game Recording Edit
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/notifications/Bushido!.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Bushido!.ogg
+
 # Set the default tones
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=Your_Gift_To_Me.ogg \
