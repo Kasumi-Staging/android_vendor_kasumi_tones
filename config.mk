@@ -13,31 +13,29 @@
 # GNU General Public License for more details.
 #
 
-LOCAL_PATH := $(call my-dir)
-
 # Tones to be added on our mod.
 
 # Poppin'Party - Your Gift To Me (Instrumental) - imouto1308 Edits
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ringtones/Your_Gift_To_Me.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Your_Gift_To_Me.ogg \
-    $(LOCAL_PATH)/notifications/Your_Gift_To_Me.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Your_Gift_To_Me.ogg \
-    $(LOCAL_PATH)/alarms/Your_Gift_To_Me.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Your_Gift_To_Me.ogg
+    vendor/kasumi/tones/ringtones/Your_Gift_To_Me.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Your_Gift_To_Me.ogg \
+    vendor/kasumi/tones/notifications/Your_Gift_To_Me.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Your_Gift_To_Me.ogg \
+    vendor/kasumi/tones/alarms/Your_Gift_To_Me.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Your_Gift_To_Me.ogg
 
 # Poppin'Party x Afterglow x Roselia x Pastel*Palettes x Hello, Happy World! x Morfonica x RAISE A SUILEN - CiRCLE THANKS MUSiC♪ (Instrumental) - imouto1308 Ringtone Edit
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ringtones/CiRCLE_THANKS_MUSiC.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/CiRCLE_THANKS_MUSiC.ogg
+    vendor/kasumi/tones/ringtones/CiRCLE_THANKS_MUSiC.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/CiRCLE_THANKS_MUSiC.ogg
 
 # Pastel*Palettes - Kyu~mai*flower (Instrumental) - imouto1308 Ringtone Edit
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ringtones/Kyumai_flower.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Kyumai_flower.ogg
+    vendor/kasumi/tones/ringtones/Kyumai_flower.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Kyumai_flower.ogg
 
 # Pastel*Palettes - Shuwarin☆Dreaming (Instrumental) - imouto1308 Ringtone Edit
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ringtones/Shuwarin_Dreaming.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Shuwarin_Dreaming.ogg
+    vendor/kasumi/tones/ringtones/Shuwarin_Dreaming.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Shuwarin_Dreaming.ogg
 
 # "Bushido!" - windowz414 In-Game Recording Edit
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/notifications/Bushido!.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Bushido!.ogg
+    vendor/kasumi/tones/notifications/Bushido!.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Bushido!.ogg
 
 # Set the default tones
 PRODUCT_PRODUCT_PROPERTIES += \
