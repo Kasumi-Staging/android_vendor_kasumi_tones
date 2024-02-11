@@ -45,7 +45,7 @@ repository doesn't exist);
 
 - All of the bands formed in BanG Dream franchise for the original songs and their instrumental versions
 - BanG Dream community for providing high quality versions of the tracks mentioned above
-- imouto1308 for editing and adapting
+- (Anonymous contributor) for editing and adapting
 - windowz414/stelbl for the base code and research
 
 -----
