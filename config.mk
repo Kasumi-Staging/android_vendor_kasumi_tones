@@ -35,7 +35,35 @@ PRODUCT_COPY_FILES += \
 
 # "Bushido!" - windowz414 In-Game Recording Edit
 PRODUCT_COPY_FILES += \
-    vendor/kasumi/tones/notifications/Bushido!.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Bushido!.ogg
+    vendor/kasumi/tones/notifications/Bushido.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Bushido.ogg
+
+# Poppin'Party - Introduction
+PRODUCT_COPY_FILES += \
+    vendor/kasumi/tones/ringtones/Introduction.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Introduction.ogg
+
+# Afterglow - Y.O.L.O!!!!!
+PRODUCT_COPY_FILES += \
+    vendor/kasumi/tones/ringtones/Y.O.L.O.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Y.O.L.O.ogg
+
+# Hello, Happy World! - Smile x Smile = Hyper Smile Power!
+PRODUCT_COPY_FILES += \
+    vendor/kasumi/tones/ringtones/Smile_x_Smile__Hyper_Smile_Power.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Smile_x_Smile_Hyper_Smile_Power.ogg
+
+# Roselia - Ringing Bloom
+PRODUCT_COPY_FILES += \
+    vendor/kasumi/tones/ringtones/Ringing_Bloom.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Ringing_Bloom.ogg
+
+# RAISE A SUILEN - DRIVE US CRAZY
+PRODUCT_COPY_FILES += \
+    vendor/kasumi/tones/ringtones/DRIVE_US_CRAZY.ogg:$(TARGET_COPY_OUT_PRODYCT)/media/audio/ringtones/DRIVE_US_CRAZY.ogg
+
+# Morfonica - Bloom Bloom
+PRODUCT_COPY_FILES += \
+    vendor/kasumi/tones/ringtones/Bloom_Bloom.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Bloom_Bloom.ogg
+
+# MyGO!!!!! - Hitoshizuku
+PRODUCT_COPY_FILES += \
+    vendor/kasumi/tones/ringtones/Hitoshizuku.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Hitoshizuku.ogg
 
 # Set the default tones
 PRODUCT_PRODUCT_PROPERTIES += \
